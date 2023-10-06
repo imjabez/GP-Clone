@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}.home{
+    height: 100vh;
+    padding: 0;
+    background-color: black;
+}
+.home-bg{
+    background: url("../image/home-bg.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    opacity: 0.3;
+    
+}
+.home-opc{
+    height: 549px;
+    width: 100%;
+    position: absolute;
+}
+.bg-dark{
+    background-color: black !important;
+}
+.btn{
+    border: 2px solid goldenrod;
+    color: white;
+    width: 130px;
+}
+.btn:hover{
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid goldenrod;
+}
+.nav-link{
+    padding: 8px 12px !important;
+}
+.navi-bar{
+    
+}
+.home-info{
+    position: relative;
+    top: 65px;
+    width: 50%;
+}
+.home-head{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.home-para{
+    font-family: 'Raleway', sans-serif;
+    color: gainsboro;
+    font-size: 28px;
+    text-align: center;
+}
+.home-container{
+    position: relative;
+    top: 110px;
+    width: 69%;
+}
+.home-box{
+    height: 150px;
+    max-width: 164px !important;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+.box-icon{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.box-info{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 1;
+}
+@media(max-width:768px){
+    .navbar{
+        padding: 6px 25px !important;
+    }
+    
+    .home{
+        height: 1150px;
+    }
+    .home-bg{
+        height: 1150px;
+        background-size: auto;
+        background-attachment: inherit;
+    }
+    .home-info{
+        width: 80%;
+        top: 30px;
+    }
+    .home-head{
+        font-size: 27px;
+    }
+    .home-para{
+        font-size: 19px;
+    }
+    .home-container{
+        top: 50px;
+    }
+    .home-box{
+        max-width: 90% !important;
+        margin: 12px;
+    }
+}
